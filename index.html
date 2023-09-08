@@ -16,7 +16,7 @@
     function encryptString(str) {
       let encryptedStr = '';
       for (let i = 0; i < str.length; i++) {
-          Fix: Change i <= str.length to i < str.length
+         
         encryptedStr += String.fromCharCode(str.charCodeAt(i) + 2);
       }
       return encryptedStr;
